@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Blog extends Component {
   render () {
     return (
-      <p>in blog</p>
+      <p>Edited to create blog branch</p>
     )
   }
 }
