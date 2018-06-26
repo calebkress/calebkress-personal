@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled, { css } from 'styled-components';
-import { Linkedin, Github, Medium } from 'styled-icons/fa-brands';
+import { Linkedin, Github, Medium, Twitter } from 'styled-icons/fa-brands';
 import { Envelope } from 'styled-icons/fa-regular'
 
 import { ColorScheme } from '../theme/styleConstants.js'
@@ -43,6 +43,9 @@ const CustomMedium = Medium.extend`
   ${IconCss}
 `;
 
+const CustomTwitter = Twitter.extend`
+  ${IconCss}
+`;
 
 class Footer extends Component {
   render() {
@@ -53,6 +56,7 @@ class Footer extends Component {
             <a href="https://github.com/calebkress" target="_blank" rel="noopener noreferrer"><CustomGithub size="48"/></a>
             <a href="http://www.linkedin.com/in/caleb-kress-44316199" target="_blank" rel="noopener noreferrer"><CustomLinkedin size="48"/></a>
             <a href="https://medium.com/@calebkress" target="_blank" rel="noopener noreferrer"><CustomMedium size="48" /></a>
+            <a href="https://twitter.com/onKress" target="_blank" rel="noopener noreferrer"><CustomTwitter size="48"/></a>
             <a href="mailto:calebkress@gmail.com" target="_blank" rel="noopener noreferrer"><CustomEnvelope size="48"/></a>
             <br />
           </div>
