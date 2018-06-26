@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class About extends Component {
   render () {
     return (
-      <p>in about me</p>
+      <p>Editing this text so I can start the about branch.</p>
     )
   }
 }
