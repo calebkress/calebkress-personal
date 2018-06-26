@@ -10,15 +10,15 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <CenteredHeader>"If you believe breaking is possible, believe fixing is possible." - R. Nachman</CenteredHeader>
+        <CenteredHeader>"Header"</CenteredHeader>
         <p>
-          in home
+          I'm a full-stack software engineer from Austin, TX.
         </p>
         <p>
-          Editing this text so that
+          Javascript| React.js  | Node.js | MySQL | Electron.js
         </p>
         <p>
-          the "home" branch gets created.
+          
         </p>
       </div>
     );
