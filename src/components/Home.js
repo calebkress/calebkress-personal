@@ -10,15 +10,15 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <CenteredHeader>"Header"</CenteredHeader>
+        <CenteredHeader>Full-stack software engineer from Austin, TX</CenteredHeader>
         <p>
-          I'm a full-stack software engineer from Austin, TX.
+          Javascript | React.js  | Redux | Styled Components
         </p>
         <p>
-          Javascript| React.js  | Node.js | MySQL | Electron.js
+          Node.js | Electron.js
         </p>
         <p>
-          
+          MySQL | Sqlite3 | Git | AWS
         </p>
       </div>
     );
