@@ -12,13 +12,13 @@ class Home extends Component {
       <div>
         <CenteredHeader>"If you believe breaking is possible, believe fixing is possible." - R. Nachman</CenteredHeader>
         <p>
-          Here's the first part of your "about me."
+          in home
         </p>
         <p>
-          This is "about me" part two.
+          Editing this text so that
         </p>
         <p>
-          Here's a third section for "about me."
+          the "home" branch gets created.
         </p>
       </div>
     );
