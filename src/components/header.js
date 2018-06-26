@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 import styled, { css } from 'styled-components';
 
 import Home from './Home';
@@ -35,7 +35,7 @@ const NavCss = css`
   color: black;
 `
 // apply NavCss to links + breaks
-const NavLink = styled(Link)`
+const CustomNavLink = styled(NavLink)`
   ${NavCss};
   margin: 0 5px;
 `;
@@ -52,15 +52,15 @@ class Header extends Component {
         <TitleBar>CALEB KRESS</TitleBar>
         <Router>
           <div>
-            <NavLink to='/'>HOME</NavLink>
+            <CustomNavLink exact to='/' activeStyle={{ color: '#2296aa' }}>HOME</CustomNavLink>
             <NavBreak> | </NavBreak>
-            <NavLink to='about'>ABOUT ME</NavLink>
+            <CustomNavLink to='about'>ABOUT ME</CustomNavLink>
             <NavBreak> | </NavBreak>
-            <NavLink to='portfolio'>PORTFOLIO</NavLink>
+            <CustomNavLink to='portfolio'>PORTFOLIO</CustomNavLink>
             <NavBreak> | </NavBreak>
-            <NavLink to='blog'>BLOG</NavLink>
+            <CustomNavLink to='blog'>BLOG</CustomNavLink>
             <NavBreak> | </NavBreak>
-            <NavLink to='contact'>GET IN TOUCH</NavLink>
+            <CustomNavLink to='contact'>GET IN TOUCH</CustomNavLink>
             <hr />
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
