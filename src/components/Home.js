@@ -12,10 +12,10 @@ class Home extends Component {
       <div>
         <CenteredHeader>Full-stack software engineer from Austin, TX</CenteredHeader>
         <p>
-          Javascript | React.js  | Redux | Styled Components
+          Javascript | React.js  | Redux | Python
         </p>
         <p>
-          Node.js | Electron.js
+          Node.js | Electron.js | d3.js
         </p>
         <p>
           MySQL | Sqlite3 | Git | AWS
