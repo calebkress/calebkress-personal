@@ -55,4 +55,8 @@ injectGlobal`
     text-align: center;
     margin: 0 auto;
   }
+  .projects {
+    width: 70%
+    margin: 0 auto;
+  }
 `;

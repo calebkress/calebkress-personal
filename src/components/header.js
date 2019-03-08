@@ -58,14 +58,11 @@ class Header extends Component {
             <NavBreak> | </NavBreak>
             <CustomNavLink to='portfolio'>PORTFOLIO</CustomNavLink>
             <NavBreak> | </NavBreak>
-            <CustomNavLink to='blog'>BLOG</CustomNavLink>
-            <NavBreak> | </NavBreak>
             <CustomNavLink to='contact'>GET IN TOUCH</CustomNavLink>
             <hr />
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/portfolio" component={Portfolio} />
-            <Route path="/blog" component={Blog} />
             <Route path="/contact" component={Contact} />
           </div>
         </Router>
