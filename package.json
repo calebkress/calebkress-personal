@@ -4,14 +4,14 @@
   "private": true,
   "homepage": "http://calebkress.com",
   "dependencies": {
-    "bootstrap": "^4.1.1",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "bootstrap": "^4.6.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
-    "styled-components": "^3.3.3",
-    "styled-icons": "^2.2.0"
+    "styled-components": "^3.4.10",
+    "styled-icons": "^2.4.0"
   },
   "scripts": {
     "start": "react-scripts start",

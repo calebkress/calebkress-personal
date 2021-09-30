@@ -6,7 +6,9 @@ class About extends Component {
       <div class="about">
         <p>I'm a lifelong lover of language - I studied Latin, Ancient Greek, and Biblical Hebrew for years. Understanding complex linguistic systems has always been incredibly appealing to me. When I started learning to code, I began to notice tons of overlap. Just like with language, I found that code was at its heart about using a system of rules to convey ideas.
 
-        Since then, I've found another love within the field: data visualization and analysis. I hope to use a combination of statistical analysis and web programming to make complex datasets easily accessible to anyone.</p>
+        Since then, I've found another love within the field: data visualization and analysis. I hope to use a combination of statistical analysis and web programming to make complex datasets easily accessible to anyone.
+        
+        I'm currently pursuing a BS in Computer Science at St. Edward's University in Austin, and hoping to start at an MA Data Science program upon graduation.</p>
       </div>
     )
   }
